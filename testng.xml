@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My Sample Suite">
+
+<test name="Launch chrome">
+    <classes>
+        <class name="com.projectDemo.launchChrome" ></class>  
+    </classes>
+</test>
+
+</suite>
