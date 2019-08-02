@@ -2,16 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-08-01T21:01:28Z" name="Default suite" finished-at="2019-08-01T21:01:33Z" duration-ms="5236">
+  <suite started-at="2019-08-02T19:10:53Z" name="Default suite" finished-at="2019-08-02T19:10:57Z" duration-ms="4109">
     <groups>
     </groups>
-    <test started-at="2019-08-01T21:01:28Z" name="Default test" finished-at="2019-08-01T21:01:33Z" duration-ms="5236">
-      <class name="com.projectDemo.launchChrome">
-        <test-method signature="launch()[pri:0, instance:com.projectDemo.launchChrome@402bba4f]" started-at="2019-08-01T21:01:28Z" name="launch" finished-at="2019-08-01T21:01:33Z" duration-ms="5200" status="PASS">
+    <test started-at="2019-08-02T19:10:53Z" name="Default test" finished-at="2019-08-02T19:10:57Z" duration-ms="4109">
+      <class name="com.projectDemo.ExtentReportTest">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:com.projectDemo.ExtentReportTest@3bb9a3ff]" started-at="2019-08-02T19:10:53Z" name="startTest" finished-at="2019-08-02T19:10:54Z" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launch -->
-      </class> <!-- com.projectDemo.launchChrome -->
+        </test-method> <!-- startTest -->
+        <test-method signature="extentReportsDemo()[pri:0, instance:com.projectDemo.ExtentReportTest@3bb9a3ff]" started-at="2019-08-02T19:10:54Z" name="extentReportsDemo" finished-at="2019-08-02T19:10:57Z" duration-ms="3653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportsDemo -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.projectDemo.ExtentReportTest@3bb9a3ff]" started-at="2019-08-02T19:10:57Z" name="endTest" finished-at="2019-08-02T19:10:57Z" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.projectDemo.ExtentReportTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
